@@ -1,0 +1,6 @@
+script.
+    $(document).ready(function() {
+        $('.toggler').click(function(event) {
+            $('.event'+$(this).attr('event')).toggle();
+        });
+    });

@@ -1,0 +1,10 @@
+html
+  head
+     include ../_partials/styles
+
+  body.background
+      .container
+            include ../_partials/header
+            .markdown
+                != yield
+            include ../_partials/footer

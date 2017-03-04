@@ -1,0 +1,10 @@
+mixin event(id, title, date, past, place, description)
+    tr.toggler(event=id class=past)
+        td.date=date
+        td.desc=title
+        td.place
+            span=place
+            i.fa.fa-map-marker
+    if description
+        tr.hidden(class="event#{id}")
+            td.description(colspan="3")=description

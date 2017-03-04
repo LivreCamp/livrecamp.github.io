@@ -1,0 +1,11 @@
+doctype
+html
+  head
+      include _partials/styles
+
+  body.background.main
+      .container
+            != yield
+            include _partials/footer
+
+include _partials/scripts

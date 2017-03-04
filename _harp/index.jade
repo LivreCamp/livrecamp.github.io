@@ -1,0 +1,65 @@
+.block
+    .main-title
+        img.logo(src="logo.png")
+        h1 LivreCamp
+    .subtitle
+        | Lorem ipsum dolor sit amet, consectetur
+        | adipiscing elit. Duis facilisis sed nisi
+        | dapibus rutrum. Aenean elementum elit non
+        | lectus pretium, non commodo metus suscipit.
+        | Vivamus ac diam nibh. Nulla et sem ut dui
+        | ultrices ultricies. Nulla condimentum, eros
+        | vitae suscipit dictum, mi risus condimentum
+        | purus, id pretium felis eros sit amet mi.
+
+.block
+    h2 :: Eventos
+
+    include _mixins/event
+
+    table.eventos
+        each event, index in public.events._data
+            - var past = "";
+            if event.past
+                - var past = "past";
+            +event(index, event.title, event.date, past, event.place, event.description)
+
+.block
+    h2 :: Notícias
+
+    include _mixins/article
+
+    table.noticias
+        - var counter = 0;
+        each article, slug in public.articles._data
+            if counter < 5
+                +article(article.date, article.title, article.url)
+                - counter++;
+    if counter >= 5
+        .readmore
+            a(href="/articles") ler mais
+
+.block
+    h2 :: Canais
+
+    table.canais
+        tr
+            td
+                i.fa.fa-facebook
+                span.text Facebook
+            td
+                i.fa.fa-telegram
+                span.text Telegram
+            td
+                i.fa.fa-envelope-o
+                span.text Lista de Email
+        tr
+            td
+                i.fa.fa-github-alt
+                span.text Github
+            td
+                i.fa.fa-instagram
+                span.text Instagram
+            td
+                i.fa.fa-meetup
+                span.text Meetup

@@ -1,0 +1,7 @@
+h1.title Notícias
+.block
+    include ../_mixins/article
+
+    table.noticias
+        each article, slug in public.articles._data
+            +article(article.date, article.title, article.url)
