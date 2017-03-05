@@ -1,5 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,600,600italic&subset=latin);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400&subset=latin);
+
+@font-face {
+	font-family: "DejaVu Mono";
+	src: url('DejaVuSansMono.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "DejaVu Mono";
+	src: url('DejaVuSansMono-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
 
 @smartphones: ~"only screen and (max-width: 479px)";
 @tablets: ~"only screen and (min-width: 768px) and (max-width: 959px)";
@@ -9,7 +22,7 @@
 @purple-light: rgb(155,143,210);
 @purple-dark: #1A0324;
 
-@font-family: "Dejavu Sans Mono";
+@font-family: "DejaVu Mono", "Consolas", monospace;
 @font-family-markdown: "Vollkorn";
 
 html {
