@@ -7,9 +7,10 @@
     },
     "1" : {
          "title" : "Minicurso de GNU/Linux",
-         "date" : "(13,15,17)/03",
+         "date" : "(13,15,17)/03 às 18h",
          "past": false,
-         "place" : "Sala 302/IC3"
+         "place" : "Sala 304/IC3",
+         "description" : "O minicurso acontecerá das 18 às 18:30, na sala 304 do Instituto de Computação. A ementa está disponível no nosso repositório."
     },
     "2": {
          "title" : "Installfest: Conhecendo o GNU/Linux",
