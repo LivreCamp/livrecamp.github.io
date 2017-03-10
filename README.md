@@ -15,7 +15,7 @@ Todos são livres e encorajados a copiar, modificar, contribuir, mandar sugestõ
 
 O código do site é compilado com o gerador de páginas estáticas [**harpjs**](https://harpjs.com). Ele é instalado através do **npm**.
 
-    npm install -g harpjs
+    npm install -g harp
 
 Após a instalação, clonamos o repositório git
 
@@ -122,6 +122,11 @@ Ao postar uma notícia interna, o endereço URL da notícia deve ter o mesmo end
 Depois que alterar os arquivos de **_harp** e testar as modificações no servidor local, podemos compilar o código
 
     harp compile _harp ./
+
+Como o processo de compilação sobrescreve o README e o CNAME, é necessário fazer um checkout para que estes arquivos voltem ao 
+seu estado original
+
+    git checkout -- README.md CNAME
 
 Adicionar os arquivos e mandar um commit
 
