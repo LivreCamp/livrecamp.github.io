@@ -3,5 +3,10 @@
          "date": "01/03",
          "title" : "Reunião: Sobre Datas, Cursos e Installfest",
          "url" : "/articles/reuniao-01-mar"
+    },
+    "minicurso-mar-2017" : {
+        "date": "10/03",
+        "title" : "Declaração de interesse no Minicurso de GNU/Linux",
+        "url" : "https://goo.gl/forms/7PHw6IEw0WzbmwVD3"
     }
 }

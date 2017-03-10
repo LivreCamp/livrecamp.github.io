@@ -2,7 +2,7 @@
     "0" : {
          "title" : "Palestra Software Livre",
          "date" : "07/03",
-         "past": false,
+         "past": true,
          "place" : "Sala 302/IC3"
     },
     "1" : {
@@ -10,7 +10,7 @@
          "date" : "(13,15,17)/03 às 18h",
          "past": false,
          "place" : "Sala 304/IC3",
-         "description" : "O minicurso acontecerá das 18 às 18:30, na sala 304 do Instituto de Computação. A ementa está disponível no nosso repositório."
+         "description" : "O minicurso acontecerá das 18 às 18:45, no laboratório 304 do Instituto de Computação. O curso tem como objetivo ensinar o uso básico do linux e o necessário para se escrever e compilar seus programas. Favor declarar interesse no formulário disponível nas notícias"
     },
     "2": {
          "title" : "Installfest: Conhecendo o GNU/Linux",
