@@ -14,8 +14,8 @@
 	font-style: normal;
 }
 
-@smartphones: ~"only screen and (max-width: 479px)";
-@tablets: ~"only screen and (min-width: 768px) and (max-width: 959px)";
+@smartphones: ~"only screen and (max-width: 529px)";
+@tablets: ~"only screen and (min-width: 530px) and (max-width: 949px)";
 
 @background: rgb(44,13,57);
 @text-color: rgb(252,254,251);
@@ -39,11 +39,11 @@ body {
   margin-bottom: 60px;
 
   @media @smartphones {
-      font-size: 0.8em;
+      font-size: large;
   }
 }
 
-h1{
+h1 {
   font-size: 4em;
   line-height: 1.2em;
 }
@@ -86,6 +86,7 @@ a {
 
 .container {
     width: 60%;
+    font-size: medium;
 
     @media @tablets {
         width: 80%;
@@ -93,6 +94,7 @@ a {
 
     @media @smartphones {
         width: 90%;
+        font-size: large;
     }
 
     margin: auto;
@@ -118,6 +120,11 @@ a {
     position: relative;
     bottom: 0;
     width: 100%;
+
+    span {
+      font-size: 100%;
+    }
+
 
     a {
         text-decoration: none;
@@ -147,7 +154,7 @@ a {
 }
 
 .logo {
-    height: 50px;
+    height: 100px;
 }
 
 .block {
@@ -379,13 +386,13 @@ table {
 }
 
 .markdown {
-
-    font: 1.3em @font-family-markdown, Palatino, Times;
+    font: @font-family-markdown, Palatino, Times;
     color: white;
     line-height: 1.8;
     text-align: justify;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    vertical-align: baseline;
 
     .block {
         font: 1em @font-family;
@@ -401,25 +408,45 @@ table {
     > h1 {
         margin-top: 0;
         font-weight: normal;
-        font-size: 2em;
+        font-size: xx-large;
         text-align: center;
     }
 
     > h2 {
         font-weight: normal;
+        font-size: x-large;
         margin: 1em 0 1em 0;
+        text-align: center;
     }
 
     > h3 {
         font-weight: normal;
         font-style: normal;
-        font-size: 0.9em;
+        text-align: left;
+        font-size: x-large;
         text-transform: uppercase;
         letter-spacing: 0.06em;
-        margin: 0;
+        margin: 2em 1em 1em 0;
+        font-weight: bold;
+    }
+
+    > h4 {
+        text-align: left;
+        font-weight: normal;
+        font-style: normal;
+        font-size: large;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin: 2em 1em 1em 0;
+    }
+
+    > h5 {
+        margin: 0.5em 0 0.5em 0;
+        font-size: large;
     }
 
     > p {
+        font-size: 100%;
         margin-top: 0;
         -webkit-hypens: auto;
         -moz-hypens: auto;
@@ -427,11 +454,22 @@ table {
     }
 
     > ul {
+        display: inline;
         padding-left: 1.2em;
         padding-bottom: 1em;
+        font-size: 100%;
+    }
+
+    > li {
+        display: list-item;
+        padding-left: 1.2em;
+        padding-bottom: 1em;
+        font-size: 100%;
     }
 
     > ol {
+        display: inline;
+        font-size: 100%;
         padding-left: 1.2em;
     }
 
@@ -441,10 +479,17 @@ table {
         border-left: 1px solid #ddd;
     }
 
+    > pre {
+        padding: 1em;
+        font-family: monospace;
+        border: solid 1px #c8ccd1;
+        white-space: pre-wrap;
+    }
     > code {
         font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
-        font-size: 0.9em;
+        font-size: medium;
         background: white;
+        white-space: pre-wrap;
     }
 
     > a {
