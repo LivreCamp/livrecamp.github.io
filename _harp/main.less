@@ -16,6 +16,7 @@
 
 @smartphones: ~"only screen and (max-width: 529px)";
 @tablets: ~"only screen and (min-width: 530px) and (max-width: 949px)";
+@all-others: ~"only screen and (min-width: 950px)";
 
 @background: rgb(44,13,57);
 @text-color: rgb(252,254,251);
@@ -85,11 +86,14 @@ a {
 }
 
 .container {
-    width: 60%;
-    font-size: medium;
+    @media @all-others {
+        width: 60%;
+        font-size: medium;
+    }
 
     @media @tablets {
         width: 80%;
+        font-size: medium;
     }
 
     @media @smartphones {
