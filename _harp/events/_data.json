@@ -1,9 +1,10 @@
 {
-    "0" : {
-         "title" : "Palestra Software Livre",
-         "date" : "07/03",
-         "past": true,
-         "place" : "Sala 302/IC3"
+    "0": {
+         "title" : "Installfest: Conhecendo o GNU/Linux",
+         "date" : "22/03 às 13:00 24/03 às 16:00",
+         "past": false,
+         "place" : "Sala a confirmar/FEEC; Sala 351/IC3",
+         "description" : "No Installfest oferecemos todo o apoio e ajuda na instalação de linux nos seus computadores. Disponibilizaremos algumas distribuições de linux mais populares já prontas para serem instaladas em pen drives. Basta que vocês venham com seus computadores já com o Backup feito!"
     },
     "1" : {
          "title" : "Minicurso de GNU/Linux",
@@ -12,11 +13,10 @@
          "place" : "Sala 304/IC3",
          "description" : "O minicurso acontecerá das 18 às 18:45, no laboratório 304 do Instituto de Computação. O curso tem como objetivo ensinar o uso básico do linux e o necessário para se escrever e compilar seus programas. Favor declarar interesse no formulário disponível nas notícias"
     },
-    "2": {
-         "title" : "Installfest: Conhecendo o GNU/Linux",
-         "date" : "22/03 às 13:00 24/03 às 16:00",
-         "past": false,
-         "place" : "Sala a confirmar/FEEC; Sala 351/IC3",
-         "description" : "No Installfest oferecemos todo o apoio e ajuda na instalação de linux nos seus computadores. Disponibilizaremos algumas distribuições de linux mais populares já prontas para serem instaladas em pen drives. Basta que vocês venham com seus computadores já com o Backup feito!"
+    "2" : {
+         "title" : "Palestra Software Livre",
+         "date" : "07/03",
+         "past": true,
+         "place" : "Sala 302/IC3"
     }
 }
