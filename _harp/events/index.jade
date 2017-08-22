@@ -1,0 +1,13 @@
+.block(style="margin-top: 0; margin-bottom: 10em;")
+    h1(style="font-size: 3em") Eventos
+    include ../_mixins/event
+
+    table.eventos
+        - var index = 0;
+        each event in public.events._data
+            - var past = "";
+            if event.past
+                - var past = "past";
+            +event(index, event.title, event.date, past, event.place, event.description)
+            - index++;
+

@@ -66,6 +66,7 @@ a
         background: white
         color: black
         padding: 0.25em
+        text-decoration: none
 
 .subtitle
     margin: auto
@@ -140,6 +141,7 @@ a
 table
     margin-top: 2em
     width: 100%
+    text-align: center
 //
     // @media @smartphones
         // width: 90%
@@ -185,6 +187,21 @@ table
 
             // @media @smartphones
                 // width: 50%
+
+.eventos-passados
+  display: block
+  padding-top: 2em
+
+  a
+      color: $purple-light
+
+      &:after
+        content: none
+
+      &:hover
+        text-decoration: none
+        background-color: $purple-light
+        color: $purple-dark
 
 .noticias
     tr

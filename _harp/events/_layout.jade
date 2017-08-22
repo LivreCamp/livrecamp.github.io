@@ -1,0 +1,13 @@
+html
+  head
+     title LivreCamp - Eventos
+     include ../_partials/styles
+
+  body.background.main
+    include ../_partials/header
+    .container
+        .col-lg-9.col-center
+            != yield
+            include ../_partials/footer
+
+include ../_partials/scripts

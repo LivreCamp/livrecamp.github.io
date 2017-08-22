@@ -17,11 +17,16 @@
     table.eventos
         - var index = 0;
         each event in public.events._data
-            - var past = "";
-            if event.past
-                - var past = "past";
-            +event(index, event.title, event.date, past, event.place, event.description)
+            if index < 5
+                    - var past = "";
+                    if event.past
+                        - var past = "past";
+                    +event(index, event.title, event.date, past, event.place, event.description)
             - index++;
+
+    if index >= 5
+        .eventos-passados
+                a(href="/events") [ Eventos Passados ]
 
 .block
     h2 :: Notícias
