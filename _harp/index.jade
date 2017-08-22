@@ -15,11 +15,13 @@
     include _mixins/event
 
     table.eventos
-        each event, index in public.events._data
+        - var index = 0;
+        each event in public.events._data
             - var past = "";
             if event.past
                 - var past = "past";
             +event(index, event.title, event.date, past, event.place, event.description)
+            - index++;
 
 .block
     h2 :: Notícias

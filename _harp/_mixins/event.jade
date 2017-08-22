@@ -6,5 +6,5 @@ mixin event(id, title, date, past, place, description)
             span=place
             i.fa.fa-map-marker
     if description
-        tr.hidden(class="event#{id}")
+        tr.hidden(class="event#{id} #{past}")
             td.description(colspan="3")=description

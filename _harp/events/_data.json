@@ -1,47 +1,47 @@
 {
-        "0": {
+        "evento-6": {
                 "title": "Livre Game Jam",
                 "date": "Outubro, 2017",
                 "past": false,
                 "place": "Campinas",
                 "description": "Estamos organizando o primeiro evento de jogos livre, junto com o Gamux! Vamos debater sobre licenças de software, conhecer ferramentas de desenvolvimento, encontrar pessoas que compartilham o mesmo interesse em jogos e criar muitas coisas legais. O evento ainda está sendo estruturado. Se quiser participar da organização ou das reuniões, entre no nosso grupo do Telegram!"
         },
-        "1": {
+        "evento-5": {
                 "title": "Minicurso de Shell Script",
                 "date": "02/09, das 9 às 14",
                 "past": false,
                 "place": "IC3.5, Unicamp",
                 "description": "No dia 2 de setembro vamos organizar, junto com o CACo, um minicurso de Shell Script! O curso ocorrerá das 9h as 14h no IC-3 (sala ainda a definir). Serão oferecidas 30 vagas, o valor de inscrição é de R$10,00 e haverá coffe break. Para se inscrever basta realizar o pagamento nos atendimentos do CACo, que ocorre de segunda das 12h30 às 13h30 ou de quinta das 18h05 às 18h55, entrar em contato com o CACo através do inbox da página no Facebook (https://www.facebook.com/cacounicamp/), ou enviar um email para combinar outro modo. Os arquivos e slides utilizados no curso estarão disponíveis na nossa página assim que forem liberados."
         },
-        "2": {
+        "evento-4": {
                 "title": "Palestra: Liberdade, Softwares e o que a gente tem a ver com isso",
                 "date": "01/06 às 19h",
                 "past": true,
                 "place": "Metrocamp",
                 "description": "Com um boom tecnológico recente, nossa organização social, conceitos e ideias estão mudando constantemente. Você sabia que o conceito de liberdade também mudou? Você sabia que o movimento Software Livre surgiu totalmente atrelado a essa mudança? Nessa palestra, discutiremos a influência que a tecnologia causou em nossas liberdades individuais e o que você, como estudante dessa geração, tem a ver com isso. (por Akari Ishikawa)"
         },
-        "3": {
+        "evento-3": {
                 "title": "Mesa-redonda: Mercado de Trabalho e Software Livre",
                 "date": "01/06 às 20h",
                 "past": true,
                 "place": "Metrocamp",
                 "description": "Com cada vez mais empresas criando inovações em escala global, fechar o código de uma ferramenta pode se tornar uma desvantagem competitiva. Gigantes da tecnologia estão flexibilizando suas licenças, fazendo integrações com ambientes livres e incentivando desenvolvimento colaborativo. Mas quais empresas são essas e como elas encontram desenvolvedores aptos a trabalhar nesses projetos? Nessa mesa redonda vamos discutir sobre quais empresas contratam contribuidores, como elas os encontram o que é o necessário para começar. (por Murilo Cruz) "
         },
-        "4": {
+        "evento-2": {
                 "title": "Installfest: Conhecendo o GNU/Linux",
                 "date": "22/03 às 13:00 24/03 às 16:00",
                 "past": true,
                 "place": "Sala a confirmar/FEEC; Sala 351/IC3",
                 "description": "No Installfest oferecemos todo o apoio e ajuda na instalação de linux nos seus computadores. Disponibilizaremos algumas distribuições de linux mais populares já prontas para serem instaladas em pen drives. Basta que vocês venham com seus computadores já com o Backup feito!"
         },
-        "5": {
+        "evento-1": {
                 "title": "Minicurso de GNU/Linux",
                 "date": "(13,15,17)/03 às 18h",
                 "past": true,
                 "place": "Sala 304/IC3",
                 "description": "O minicurso acontecerá das 18 às 18:45, no laboratório 304 do Instituto de Computação. O curso tem como objetivo ensinar o uso básico do linux e o necessário para se escrever e compilar seus programas. Favor declarar interesse no formulário disponível nas notícias"
         },
-        "6": {
+        "evento-0": {
                 "title": "Palestra Software Livre",
                 "date": "07/03",
                 "past": true,
